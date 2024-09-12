@@ -1,0 +1,95 @@
+/* General layout */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: space-between;
+    background: linear-gradient(135deg, #090909, #2c3e50); /* Dark gradient background */
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header styling */
+.app-header {
+    text-align: center;
+    padding: 30px;
+    background-color: #141414;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5); /* Dark header shadow */
+    color: white;
+    border-bottom: 2px solid #FFD700; /* Gold border for Web3 theme */
+}
+
+.app-header h1 {
+    font-size: 3rem;
+    color: #00ffcc; /* Neon color for futuristic look */
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 5px rgba(0, 255, 204, 0.7); /* Glow effect */
+    margin: 0;
+}
+
+.app-header p {
+    margin-top: 10px;
+    font-size: 1.3rem;
+    color: #999; /* Light gray for contrast */
+}
+
+/* Canvas adjustments */
+canvas {
+    border: 2px solid #FFD700;
+    border-radius: 15px; /* Rounded corners for modern look */
+    box-shadow: 0px 0px 20px rgba(255, 215, 0, 0.3); /* Glow around chart */
+    transition: box-shadow 0.3s ease;
+}
+
+canvas:hover {
+    box-shadow: 0px 0px 25px rgba(255, 223, 0, 0.6); /* Glow intensifies on hover */
+}
+
+/* Footer styling */
+.app-footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #141414;
+    color: white;
+    border-top: 2px solid #FFD700;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Footer text */
+.app-footer p {
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    font-size: 1.1rem;
+}
+
+/* Social media icons */
+.app-footer a img {
+    width: 30px;
+    height: 30px;
+    margin: 0 15px;
+    vertical-align: middle;
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.app-footer a img:hover {
+    transform: scale(1.2); /* Icon enlarges on hover */
+}
+
+/* Chart text */
+textGeometry {
+    font-size: 0.5rem;
+    color: #00FF00; /* Neon green for better visibility */
+}
+
+/* Styling for chart bar label and price */
+.bar-label, .bar-price {
+    font-size: 1.1rem;
+    color: #FFFFFF; /* Bright white for contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Soft shadow for better contrast */
+}
